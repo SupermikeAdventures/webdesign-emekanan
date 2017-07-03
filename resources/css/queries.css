@@ -1,0 +1,1424 @@
+/* DONE */
+/* Super PC Large Screens: 1441px to ~ */
+@media only screen and (min-width: 1441px) {
+    .hexagon {
+        width: 28%;
+    }
+    .floating-div {
+        width: 60%;
+    }
+    .hex-container {
+        bottom: 120px;
+    }
+    /* FEATURES */
+    .section-features .row .clearfix {
+        display: none;
+    }
+
+    /* CITIES */
+    .cities-box {
+        min-height: 400px;
+    }
+
+    /* TESTIMONIALS */
+    .customer-box {
+        min-height: 520px;
+    }
+}
+
+/* DONE */
+/* PC Resolutions to Large PC Screen: From 1201px to 1440px */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+    .hero-text-box h1 {
+        font-weight: 400;
+        font-size: 62px;
+    }
+    .floating-div .row p {
+        padding: 30px 0 10px 0;
+    }
+    .hexagon {
+        width: 29.5%;
+    }
+    .hex-container {
+        bottom: 85px;
+    }
+
+    /* FEATURES */
+    .section-features .row .clearfix {
+        display: none;
+    }
+
+    /* PLANS */
+    .plan-box {
+        min-height: 470px;
+    }
+
+    /* CITIES */
+    .cities-box {
+        min-height: 375px;
+    }
+
+    /* TESTIMONIALS */
+    .customer-box {
+        min-height: 520px;
+    }
+}
+
+/* DONE */
+/* Large Tablets to PC Resolutions: From 1024px to 1200px */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    /* ABOUT */
+    .hero-text-box h1 {
+        font-weight: 400;
+        font-size: 52px;
+    }
+    .floating-div .row p {
+        width: 70%;
+        padding: 50px 0 40px 0;
+    }
+    .hexagon {
+        width: 28.5%;
+    }
+    .hex-container {
+        bottom: 140px;
+    }
+    .floating-div {
+        max-height: 560px;
+    }
+    /* FEATURES */
+    .section-features .row .clearfix {
+        display: block;
+    }
+    .features-container {
+     min-width: 805px;
+        max-width: 805px;
+    }
+    .features-content {
+        min-height: 500px;
+        max-height: 500px;
+    }
+    .chef-container {
+        top: 78px;
+        right: 53px;
+    }
+    .chef-container img {
+        width: 260px;
+        min-height: 460px;
+        max-height: 460px;
+    }
+    /* HOW IT WORKS */
+    .steps-right {
+        margin-left: 0px;
+    }
+    /* PLANS */
+    .plan-container {
+     width: 90%;
+    }
+
+    .plan-price {
+     min-height: 70px;
+        font-size: 180%;
+    }
+    .plan-box {
+        min-height: 450px;
+    }
+    .plan-box div ul {
+        margin: 0 20px;
+    }
+
+    .plan-box div ul li {
+        padding: 0 5px;
+    }
+
+    .plan-box div ul li i {
+        margin-right: 10px;
+        font-size: 120%;
+    }
+    /* CITIES */
+    .cities-skew {
+        top: -100px;
+    }
+    .cities-container {
+        width: 90%;
+    }
+    .cities-box {
+        overflow: hidden;
+        display: block;
+        width: 24%;
+        float: left;
+        padding: 0 0 10px 0;
+        background-color: #fff;
+        margin: 0 0.5%;
+        box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.22);
+    }
+    .section-cities .row h2 {
+        bottom: 120px;
+        left: 90px;
+    }
+    .cities-box {
+        min-height: 350px;
+        max-height: 350px;
+    }
+    .city-features {
+        font-size: 95%;
+    }
+    .city-features {
+        font-size: 17px;
+    }
+    /* TESTIMONIALS */
+    .section-testimonials {
+        padding: 70px 0 120px 0;
+    }
+    .customer-box {
+        min-height: 540px;
+    }
+    .coffee {
+        bottom: -90px;
+    }
+    /* CONTACT */
+    form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-content {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .email-us .row h3 {
+        width: 100%;
+        text-align: center;
+        top: 0px;
+        display: block;
+        padding-right: 0;
+    }
+
+    .email-us input {
+        font-size: 120%;
+        transition: border 0.2s ease-in-out;
+    }
+
+    input[type=submit] {
+        margin: 0 5px;
+    }
+}
+
+
+/* DONE */
+/* Small Tablets to Large Tables: From 768px to 1023px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* HEADER */
+    .hero-text-box {
+        width: 100%;
+    }
+
+    .hero-text-box h1 {
+        font-size: 300%;
+        font-weight: 400;
+    }
+
+    .hero-text-box h1 span {
+        font-weight: 300;
+    }
+
+    /* ABOUT */
+    .floating-div .row p {
+        width: 70%;
+    }
+
+    .hexagon {
+        width: 26.9%;
+    }
+    .hex-container {
+        bottom: 170px;
+    }
+    .floating-div {
+        max-height: 530px;
+    }
+
+    .floater .row .yellow-line {
+        display: none;
+    }
+
+    /* FEATURES */
+    .section-features .row .clearfix {
+        display: block;
+    }
+    .features-container {
+        width: 90%;
+        left: 5%;
+        padding: 10px 25px 20px 20px;
+        z-index: 3;
+    }
+    .features-content {
+        padding: 30px 20px 5px 20px;
+        min-height: 500px;
+    }
+    .features-content p {
+        font-size: 95%;
+    }
+    .chef-container {
+        display: none;
+    }
+
+    /* HOW IT WORK */
+    .section-steps {
+        padding: 60px 0 100px 0;
+    }
+
+    .cookies {
+        width: 250px;
+        right: -20px;
+        top: -170px;
+        transform: rotate(-35deg);
+    }
+
+    .section-steps .row h2 {
+        margin-bottom: 50px;
+        text-align: left;
+        padding-left: 150px;
+    }
+
+    .steps-left {
+        width: 30%;
+        float: left;
+        right: 70px;
+    }
+
+    .steps-left img {
+        display: block;
+        width: 170%;
+        right: 90px;
+        top: 30px;
+    }
+
+    .steps-right {
+        width: 60%;
+        margin-left: 0px;
+        padding: 80px 30px 20px 40px;
+    }
+
+    .btn-app img {
+        height: 57px;
+    }
+
+    /* PLANS */
+    .plan-container {
+        width: 95%;
+    }
+    .plan-price {
+        font-size: 155%;
+        padding: 35px 15px;
+        min-height: 110px;
+    }
+    .plan-box {
+        min-height: 480px;
+    }
+    .plan-box div ul {
+        margin: 0 0 0 10px;
+    }
+    .plan-box div ul li {
+        padding: 0 0px;
+        min-height: 30px;
+        font-size: 90%;
+    }
+    .plan-box div ul li i {
+        margin-right: 10px;
+        font-size: 120%;
+    }
+
+    /* CITIES */
+    .cities-skew {
+        top: -110px;
+    }
+    .airplane {
+        width: 100%;
+    }
+    .section-cities {
+        padding-bottom: 35px;
+    }
+    .cities-container {
+        width: 85%;
+        bottom: 70px;
+    }
+    .cities-box {
+        width: 45%;
+        margin: 0px 2.5% 20px 2.5%;
+    }
+    .section-cities .row h2 {
+        bottom: 150px;
+        left: 50px;
+    }
+    .cities-box {
+        min-height: 440px;
+        max-height: 440px;
+    }
+    .city-features {
+        font-size: 19px;
+    }
+
+    /* TESTIMONIALS */
+    .section-testimonials {
+        padding: 70px 0 120px 0;
+    }
+    .customer-box {
+        min-height: 610px;
+    }
+    .customer-box img {
+        width: 60%;
+    }
+    .customer-name {
+        min-height: 50px;
+    }
+    .coffee {
+        bottom: -80px;
+        width: 22%;
+    }
+    /* CONTACT */
+    form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-content {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .email-us .row h3 {
+        width: 100%;
+        text-align: center;
+        top: 0px;
+        display: block;
+        padding-right: 0;
+    }
+
+    .email-us input {
+        font-size: 120%;
+        transition: border 0.2s ease-in-out;
+    }
+
+    input[type=submit] {
+        margin: 0 5px;
+    }
+
+    .section-contact .row h2 {
+        font-size: 220%;
+    }
+
+    /* FOOTER */
+    .footer-container {
+        width: 95%;
+    }
+
+    .footer-tabs ul li {
+        padding: 0px 5px;
+    }
+
+    .footer-tabs ul li a:link,
+    .footer-tabs ul li a:visited {
+        font-size: 90%;
+    }
+
+    .footer-logo {
+        width: 10%;
+    }
+
+    .footer-logo a {
+        display: table;
+        width: 80%;
+    }
+
+    .footer-logo-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .footer-social ul {
+        margin: 15px 0;
+    }
+
+    .footer-social ul li {
+        padding: 10px 25px;
+    }
+}
+
+/* DONE */
+/* Small Phones to Small Tables: From 481px to 768px */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* HEADER */
+    .hero-text-box {
+        width: 90%;
+    }
+    .btn:link,
+    .btn:visited {
+        padding: 13px 20px;
+        margin: 5px 2px;
+    }
+
+    /* ABOUT */
+    .floating-div .row p {
+        width: 90%;
+        padding: 30px 0 30px 0;
+    }
+    .floating-div .row h2 {
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+    .hexagon {
+        width: 30%;
+    }
+    .hex-container {
+        bottom: 160px;
+        left: 30px;
+    }
+    .floating-div {
+        max-height: 520px;
+    }
+    .floater .row .yellow-line {
+        display: none;
+    }
+    .plant,
+    .plant2 {
+        width: 35%;
+    }
+
+    /* FEATURES */
+    .rolling-pin {
+        transform: scale(1) rotate(-40deg);
+        top: -400px;
+        right: -150px;
+    }
+    .section-features .row .clearfix {
+        display: block;
+    }
+    .features-container {
+        width: 90%;
+        left: 5%;
+        padding: 15px;
+        z-index: 3;
+        padding-bottom: 35px;
+    }
+    .features-container .yellow-line {
+        display: none;
+    }
+    .icon-big {
+        font-size: 250%;
+        margin-bottom: 8px;
+    }
+    .features-content {
+        width: 90%;
+        left: 5%;
+        padding: 10px;
+        min-height: 200px;
+    }
+    .features-content h3 {
+        margin: 0;
+        display: inline-block;
+    }
+    .features-content p {
+        font-size: 95%;
+        margin-bottom: 15px;
+    }
+    .chef-container {
+        display: none;
+    }
+
+    /* HOW IT WORKS */
+    .section-steps {
+        padding: 60px 0 100px 0;
+    }
+
+    .cookies {
+        width: 250px;
+        right: -20px;
+        top: -170px;
+        transform: rotate(-35deg);
+    }
+
+    .section-steps .row h2 {
+        top: 50px;
+        margin-bottom: 50px;
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    .steps-left {
+        display: none;
+    }
+
+    .steps-right {
+        width: 90%;
+        margin-left: 5%;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .btn-app img {
+        height: 57px;
+    }
+
+    /* PLANS */
+    .chocolate-drip {
+        width: 180%;
+    }
+    .section-plans .row h2 {
+        margin: 0 0 30px 0;
+        bottom: 10px;
+        color: #5f3b32;
+    }
+    .plan-container {
+        width: 90%;
+    }
+    .plan-price {
+        font-size: 160%;
+        min-height: 75px;
+    }
+    .plan-box {
+        width: 80%;
+        left: 8%;
+        margin: 15px 2.5%;
+    }
+    .plan-box div ul {
+        margin: 0 0 0 20px;
+    }
+    .plan-box div ul li {
+        min-height: 30px;
+        font-size: 105%;
+    }
+    .plan-box div ul li i {
+        margin-right: 10px;
+        font-size: 120%;
+        padding: 5px 0;
+        top: 2px;
+    }
+
+    /* CITIES */
+    .cities-skew {
+        top: -150px;
+    }
+    .airplane {
+        width: 155%;
+        right: 0px;
+        top: -350px;
+    }
+    .section-cities {
+        padding-bottom: 35px;
+    }
+    .cities-container {
+        width: 90%;
+        bottom: 70px;
+    }
+    .section-cities .row h2 {
+        bottom: 150px;
+        left: 50px;
+    }
+    .cities-box {
+        width: 80%;
+        margin: 15px 10%;
+        min-height: 425px;
+        max-height: 425px;
+    }
+    .cities-box img {
+        width: 100%;
+        max-height: 250px;
+    }
+    .city-features {
+        font-size: 19px;
+    }
+    .water {
+        width: 150%;
+    }
+
+    /* TESTIMONIALS */
+    .section-testimonials {
+        padding: 70px 0 120px 0;
+    }
+    .customer-box {
+        width: 80%;
+        padding: 30px 15px 20px 15px;
+        margin: 15px 10%;
+    }
+    .customer-box img {
+        width: 150px;
+    }
+    .customer-name {
+        min-height: 50px;
+    }
+    .coffee {
+        bottom: -60px;
+        width: 29%;
+        margin: 0 -5%;
+    }
+    /* CONTACT */
+    .section-contact {
+        height: 68vh;
+    }
+    form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-content {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .email-us .row h3 {
+        width: 70%;
+        font-size: 180%;
+        text-align: center;
+        top: 0px;
+        display: block;
+        padding-right: 0;
+    }
+
+    .email-us input {
+        font-size: 90%;
+        transition: border 0.2s ease-in-out;
+    }
+
+    input[type=submit] {
+        margin: 0 5px;
+    }
+
+    .section-contact .row h2 {
+        font-size: 220%;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .section-contact .row h3:last-child {
+        font-size: 145%;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 28vh;
+    }
+    .footer-container {
+        width: 95%;
+    }
+
+    .footer-tabs ul {
+        display: block;
+        width: 220%;
+        top: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .footer-tabs ul li {
+        padding: 0px 20px;
+    }
+
+    .footer-tabs ul li a:link,
+    .footer-tabs ul li a:visited {
+        font-size: 90%;
+    }
+
+    .footer-logo {
+        width: 10%;
+        bottom: 25px;
+        right: 5px;
+    }
+
+    .footer-logo a {
+        display: table;
+        width: 80%;
+    }
+
+    .footer-logo-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer-social ul {
+        display: block;
+        width: 220%;
+        margin: 0px 0;
+        top: 70px;
+    }
+
+    .footer-social ul li {
+        padding: 10px 25px;
+    }
+
+    .rights {
+        margin: 0;
+        top: 20px;
+    }
+}
+
+/* DONE */
+/* Small Phones: From 380px to 480px */
+@media only screen and (min-width: 381px) and (max-width: 480px) {
+    /* HEADER */
+    .hero-text-box {
+        width: 90%;
+    }
+    .hero-text-box h1 {
+        font-size: 230%;
+    }
+    .btn:link,
+    .btn:visited {
+        padding: 13px 5px;
+        margin: 5px 2px;
+        width: 190px;
+        font-size: 90%;
+    }
+
+    /* ABOUT */
+    .floating-div {
+        width: 85%;
+    }
+    .floating-div .row p {
+        width: 100%;
+        padding: 30px 0 30px 0;
+    }
+    .floating-div .row h2 {
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+    .hexagon {
+        width: 70%;
+    }
+    .hexagon:nth-child(2), .hexagon:nth-child(3) {
+        display: none;
+    }
+    .hex-container {
+        bottom: 125px;
+        left: 15px;
+    }
+    .floating-div {
+        max-height: 600px;
+    }
+    .floater .row .yellow-line {
+        display: none;
+    }
+    .plant,
+    .plant2 {
+        width: 50%;
+    }
+    /* FEATURES */
+    .rolling-pin {
+        transform: scale(1) rotate(-40deg);
+        top: -400px;
+        right: -150px;
+        z-index: 1;
+    }
+    .powder {
+        top: -450px;
+        right: -380px;
+    }
+    .section-features .row .clearfix {
+        display: block;
+    }
+    .features-container {
+        width: 90%;
+        left: 5%;
+        padding: 15px;
+        z-index: 3;
+        padding-bottom: 35px;
+    }
+    .features-container .yellow-line {
+        display: none;
+    }
+    .icon-big {
+        font-size: 250%;
+        margin-bottom: 8px;
+    }
+    .features-content {
+        width: 90%;
+        left: 5%;
+        padding: 10px;
+        min-height: 200px;
+    }
+    .features-content h3 {
+        margin: 0;
+        display: inline-block;
+    }
+    .features-content p {
+        font-size: 95%;
+        margin-bottom: 15px;
+    }
+    .chef-container {
+        display: none;
+    }
+
+    /* HOW IT WORK */
+    .section-steps {
+        padding: 60px 0 70px 0;
+    }
+
+    .cookies {
+        width: 250px;
+        right: -30px;
+        top: -180px;
+        transform: rotate(-35deg);
+    }
+
+    .section-steps .row h2 {
+        top: 60px;
+        margin-bottom: 50px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .steps-left {
+        display: none;
+    }
+
+    .steps-right {
+        width: 90%;
+        margin-left: 5%;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .btn-app img {
+        height: auto;
+        width: 180px;
+    }
+
+    /* PLANS */
+    .chocolate-drip {
+        width: 185%;
+    }
+    .section-plans .row h2 {
+        margin: 0 0 30px 0;
+        bottom: 10px;
+        color: #5f3b32;
+    }
+    .plan-container {
+        width: 90%;
+    }
+    .plan-price {
+        font-size: 160%;
+        min-height: 75px;
+    }
+    .plan-box {
+        width: 90%;
+        left: 5%;
+        margin: 15px 0;
+    }
+    .plan-box div ul {
+        margin: 0 0 0 20px;
+    }
+    .plan-box div ul li {
+        min-height: 30px;
+        font-size: 105%;
+    }
+    .plan-box div ul li i {
+        margin-right: 10px;
+        font-size: 120%;
+        padding: 5px 0;
+        top: 2px;
+    }
+
+    /* CITIES */
+    .cities-skew {
+        top: -150px;
+        width: 200%;
+    }
+    .airplane {
+        width: 185%;
+        right: 0px;
+        top: -350px;
+    }
+    .section-cities {
+        padding-bottom: 35px;
+    }
+    .cities-container {
+        width: 90%;
+        bottom: 70px;
+    }
+    .cities-box img {
+        width: 100%;
+        max-height: 210px;
+    }
+    .section-cities .row h2 {
+        bottom: 150px;
+        left: 4%;
+    }
+    .cities-box {
+        width: 90%;
+        margin: 15px 5%;
+        min-height: 380px;
+        max-height: 380px;
+    }
+    .city-features {
+        font-size: 19px;
+    }
+
+    .water {
+        width: 200%;
+    }
+
+    /* TESTIMONIALS */
+    .section-testimonials {
+        padding: 70px 0 120px 0;
+    }
+    .customer-box {
+        width: 90%;
+        padding: 30px 15px 20px 15px;
+        margin: 15px 5%;
+    }
+    .customer-box img {
+        width: 40%;
+    }
+    .customer-name {
+        min-height: 50px;
+    }
+    .coffee {
+        bottom: -60px;
+        width: 35%;
+        margin: 0 -5%;
+    }
+    /* CONTACT */
+    .section-contact {
+        height: 68vh;
+    }
+    form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-content {
+        display: inline-block;
+        margin-top: 0px;
+        top: -20px;
+        width: 90%;
+    }
+
+    .email-us .row h3 {
+        width: 70%;
+        font-size: 180%;
+        text-align: center;
+        top: -25px;
+        display: block;
+        padding-right: 0;
+    }
+
+    .email-us input {
+        font-size: 90%;
+        transition: border 0.2s ease-in-out;
+        margin-bottom: 5px;
+    }
+
+    input[type=submit] {
+        margin: 0 5px;
+    }
+
+    .section-contact .row h2 {
+        font-size: 210%;
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .section-contact .row h3:last-child {
+        font-size: 145%;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 28vh;
+    }
+    .footer-container {
+        width: 95%;
+    }
+
+    .footer-tabs ul {
+        display: block;
+        width: 220%;
+        top: 20px;
+        z-index: 1;
+    }
+
+    .footer-tabs ul li {
+        padding: 0px 10px;
+    }
+
+    .footer-tabs ul li a:link,
+    .footer-tabs ul li a:visited {
+        font-size: 90%;
+    }
+
+    .footer-logo {
+        width: 10%;
+        bottom: 25px;
+        right: 10px;
+    }
+
+    .footer-logo a {
+        display: table;
+        width: 80%;
+    }
+
+    .footer-logo-img {
+        width: 60px;
+        height:60px;
+    }
+
+    .footer-social ul {
+        display: block;
+        width: 220%;
+        margin: 0px 0;
+        top: 70px;
+    }
+
+    .footer-social ul li {
+        padding: 10px 15px;
+    }
+
+    .rights {
+        margin: 0;
+        top: 15px;
+    }
+}
+
+
+/* Super Small Phones: From 0px to 379px */
+@media only screen and (max-width: 380px) {
+    /* HEADER */
+    .hero-text-box {
+        width: 90%;
+    }
+    .hero-text-box h1 {
+        font-size: 230%;
+    }
+    .btn:link,
+    .btn:visited {
+        padding: 13px 5px;
+        margin: 5px 2px;
+        width: 190px;
+        font-size: 90%;
+    }
+
+    /* ABOUT */
+    .floating-div {
+        width: 85%;
+    }
+    .floating-div .row p {
+        width: 100%;
+        padding: 30px 0 30px 0;
+    }
+    .floating-div .row h2 {
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+    .hexagon {
+        width: 70%;
+    }
+    .hexagon:nth-child(2), .hexagon:nth-child(3) {
+        display: none;
+    }
+    .hex-container {
+        bottom: 125px;
+        left: 15px;
+    }
+    .floating-div {
+        max-height: 600px;
+    }
+    .floater .row .yellow-line {
+        display: none;
+    }
+    .plant,
+    .plant2 {
+        width: 50%;
+    }
+    /* FEATURES */
+    .rolling-pin {
+        transform: scale(1) rotate(-40deg);
+        top: -400px;
+        right: -150px;
+        z-index: 1;
+    }
+    .powder {
+        top: -450px;
+        right: -380px;
+    }
+    .section-features .row .clearfix {
+        display: block;
+    }
+    .features-container {
+        width: 90%;
+        left: 5%;
+        padding: 15px;
+        z-index: 3;
+        padding-bottom: 35px;
+    }
+    .features-container .yellow-line {
+        display: none;
+    }
+    .icon-big {
+        font-size: 250%;
+        margin-bottom: 8px;
+    }
+    .features-content {
+        width: 90%;
+        left: 5%;
+        padding: 10px;
+        min-height: 200px;
+    }
+    .features-content h3 {
+        width: 70%;
+        margin: 0 0 12px 0;
+        display: inline-block;
+    }
+    .features-content p {
+        font-size: 95%;
+        margin-bottom: 15px;
+    }
+    .chef-container {
+        display: none;
+    }
+
+    /* HOW IT WORK */
+    .section-steps {
+        padding: 60px 0 70px 0;
+    }
+
+    .cookies {
+        width: 220px;
+        right: -30px;
+        top: -180px;
+        transform: rotate(-47deg);
+    }
+
+    .section-steps .row h2 {
+        top: 60px;
+        margin-bottom: 50px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .steps-left {
+        display: none;
+    }
+
+    .steps-right {
+        width: 90%;
+        margin-left: 5%;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .btn-app img {
+        height: auto;
+        width: 180px;
+    }
+
+    /* PLANS */
+    .chocolate-drip {
+        width: 200%;
+    }
+    .section-plans .row h2 {
+        margin: 0 0 30px 0;
+        bottom: 10px;
+        color: #5f3b32;
+    }
+    .plan-container {
+        width: 90%;
+    }
+    .plan-price {
+        font-size: 160%;
+        min-height: 75px;
+    }
+    .plan-box {
+        width: 90%;
+        left: 5%;
+        margin: 15px 0;
+    }
+    .plan-box div ul {
+        margin: 0 0 0 20px;
+    }
+    .plan-box div ul li {
+        min-height: 30px;
+        font-size: 105%;
+    }
+    .plan-box div ul li i {
+        margin-right: 10px;
+        font-size: 120%;
+        padding: 5px 0;
+        top: 2px;
+    }
+
+    /* CITIES */
+    .cities-skew {
+        top: -150px;
+        width: 200%;
+    }
+    .airplane {
+        width: 185%;
+        right: 0px;
+        top: -350px;
+    }
+    .section-cities {
+        padding-bottom: 35px;
+    }
+    .cities-container {
+        width: 90%;
+        bottom: 70px;
+    }
+    .cities-box img {
+        width: 100%;
+        max-height: 210px;
+    }
+    .section-cities .row h2 {
+        bottom: 150px;
+        left: 4%;
+        border: none;
+        padding: 0;
+    }
+    .cities-box {
+        width: 90%;
+        margin: 15px 5%;
+        min-height: 380px;
+        max-height: 380px;
+    }
+    .city-features {
+        font-size: 19px;
+    }
+
+    .water {
+        width: 200%;
+    }
+
+    /* TESTIMONIALS */
+    .section-testimonials {
+        padding: 70px 0 120px 0;
+    }
+    .customer-box {
+        width: 90%;
+        padding: 30px 15px 20px 15px;
+        margin: 15px 5%;
+    }
+    .customer-box img {
+        width: 40%;
+    }
+    .customer-name {
+        min-height: 50px;
+    }
+    .coffee {
+        bottom: -60px;
+        width: 50%;
+        margin: 0 -15%;
+    }
+    /* CONTACT */
+    .section-contact {
+        height: 68vh;
+    }
+    form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-content {
+        display: inline-block;
+        margin-top: 0px;
+        top: -20px;
+        width: 90%;
+    }
+
+    .email-us .row h3 {
+        width: 70%;
+        font-size: 180%;
+        text-align: center;
+        top: -25px;
+        display: block;
+        padding-right: 0;
+    }
+
+    .email-us input {
+        font-size: 90%;
+        transition: border 0.2s ease-in-out;
+        margin-bottom: 5px;
+    }
+
+    input[type=submit] {
+        margin: 0 5px;
+    }
+
+    .section-contact .row h2 {
+        font-size: 210%;
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .section-contact .row h3:last-child {
+        font-size: 145%;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 28vh;
+        background-color: #0d0d0d;
+        border-top: 2px solid #ffa337;
+    }
+    .footer-container {
+        width: 95%;
+    }
+
+    .footer-tabs ul {
+        display: block;
+        width: 220%;
+        top: 20px;
+        z-index: 1;
+    }
+
+    .footer-tabs ul li {
+        padding: 0px 8px;
+    }
+
+    .footer-tabs ul li a:link,
+    .footer-tabs ul li a:visited {
+        font-size: 83%;
+    }
+
+    .footer-logo {
+        width: 10%;
+        bottom: 25px;
+        right: 10px;
+    }
+
+    .footer-logo a {
+        display: table;
+        width: 80%;
+    }
+
+    .footer-logo-img {
+        width: 60px;
+        height:60px;
+    }
+
+    .footer-social ul {
+        display: block;
+        width: 220%;
+        margin: 0px 0;
+        top: 70px;
+    }
+
+    .footer-social ul li {
+        padding: 10px 15px;
+    }
+
+    .rights {
+        margin: 0;
+        top: 20px;
+        font-size: 90%;
+    }
+}

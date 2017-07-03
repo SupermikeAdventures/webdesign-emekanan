@@ -112,6 +112,7 @@ p {
 .btn-full:hover,
 .btn-full:active {
     background-color: #f39c12;
+    border: 2px solid #f39c12;
     color: #392200;
     font-weight: 700;
     padding-right: 50px;
@@ -159,7 +160,6 @@ header {
 
 .logo {
     height: 100px;
-    widows: autp;
     margin: 0 20px;
 }
 
@@ -442,7 +442,7 @@ header .row {
     width: 20%;
     display: block;
     position: relative;
-    top: 22px;
+    top: 12px;
     right: 58px;
     float: left;
     z-index: 2;
@@ -719,7 +719,6 @@ header .row {
 }
 
 .cities-box img {
-    position: a;
     display: inline-block;
     width: 100%;
     height: auto;
@@ -818,7 +817,7 @@ header .row {
 .customer-box {
     width: 30.33%;
     float: left;
-    padding: 25px 15px 30px 25px;
+    padding: 25px 15px 30px 15px;
     margin: 0 1.5%;
     max-height: 520px;
     transition: all 0.3s ease-in-out;
@@ -837,9 +836,6 @@ header .row {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-}
-
-.customer-box img:hover {
 }
 
 .customer-name {
@@ -1057,8 +1053,11 @@ header .row {
     text-align: center;
     text-transform: uppercase;
     font-size: 300%;
-    padding-top: 250px;
     font-weight: 300;
+}
+
+.email-us .row form h3 {
+    margin: auto;
 }
 
 .section-contact .row h3 {
@@ -1068,6 +1067,16 @@ header .row {
     font-size: 200%;
 }
 
+.section-contact .row:nth-child(2) {
+    /* Center horizontally & vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+}
 .email-us {
     height: 200px;
     left: 0;
@@ -1077,13 +1086,25 @@ header .row {
     background-color: rgb(229, 133, 20);
 }
 
+form {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.form-content {
+    display: inline-block;
+}
+
 .email-us .row h3 {
     display: inline-block;
     color: #fff;
     text-transform: lowercase;
     width: 50%;
-    text-align: left;
-    margin-top: 70px;
+    text-align: right;
+    padding-right: 20px;
+    top: 5px;
 }
 
 .email-us input {
