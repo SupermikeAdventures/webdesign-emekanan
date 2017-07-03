@@ -1,6 +1,14 @@
-/* DONE */
+
 /* Super PC Large Screens: 1441px to ~ */
 @media only screen and (min-width: 1441px) {
+    /* HEADER */
+    .main-nav {
+        display: block;
+    }
+    .mobile-nav {
+        display: none;
+    }
+
     .hexagon {
         width: 28%;
     }
@@ -15,6 +23,10 @@
         display: none;
     }
 
+    .section-features .row .yellow-line {
+        display: none;
+    }
+
     /* CITIES */
     .cities-box {
         min-height: 400px;
@@ -26,9 +38,15 @@
     }
 }
 
-/* DONE */
 /* PC Resolutions to Large PC Screen: From 1201px to 1440px */
 @media only screen and (min-width: 1201px) and (max-width: 1440px) {
+    /* HEADER */
+    .main-nav {
+        display: block;
+    }
+    .mobile-nav {
+        display: none;
+    }
     .hero-text-box h1 {
         font-weight: 400;
         font-size: 62px;
@@ -45,6 +63,9 @@
 
     /* FEATURES */
     .section-features .row .clearfix {
+        display: block;
+    }
+    .section-features .row .yellow-line {
         display: none;
     }
 
@@ -64,9 +85,15 @@
     }
 }
 
-/* DONE */
 /* Large Tablets to PC Resolutions: From 1024px to 1200px */
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    /* HEADER */
+    .main-nav {
+        display: block;
+    }
+    .mobile-nav {
+        display: none;
+    }
     /* ABOUT */
     .hero-text-box h1 {
         font-weight: 400;
@@ -149,6 +176,7 @@
         padding: 0 0 10px 0;
         background-color: #fff;
         margin: 0 0.5%;
+        -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.22);
         box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.22);
     }
     .section-cities .row h2 {
@@ -199,6 +227,7 @@
 
     .email-us input {
         font-size: 120%;
+        -webkit-transition: border 0.2s ease-in-out;
         transition: border 0.2s ease-in-out;
     }
 
@@ -207,11 +236,30 @@
     }
 }
 
-
-/* DONE */
 /* Small Tablets to Large Tables: From 768px to 1023px */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* HEADER */
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+    }
+    .mobile-nav img {
+        width: 12%;
+        height: auto;
+    }
+    .mobile-nav span {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+    }
     .hero-text-box {
         width: 100%;
     }
@@ -274,6 +322,7 @@
         width: 250px;
         right: -20px;
         top: -170px;
+        -webkit-transform: rotate(-35deg);
         transform: rotate(-35deg);
     }
 
@@ -378,6 +427,10 @@
         bottom: -80px;
         width: 22%;
     }
+    /* MEALS */
+    .section-meals h2 {
+        font-size: 1000%;
+    }
     /* CONTACT */
     form {
         display: block;
@@ -402,6 +455,7 @@
 
     .email-us input {
         font-size: 120%;
+        -webkit-transition: border 0.2s ease-in-out;
         transition: border 0.2s ease-in-out;
     }
 
@@ -450,10 +504,30 @@
     }
 }
 
-/* DONE */
 /* Small Phones to Small Tables: From 481px to 768px */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
     /* HEADER */
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+    }
+    .mobile-nav img {
+        width: 16%;
+        height: auto;
+    }
+    .mobile-nav span {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+    }
     .hero-text-box {
         width: 90%;
     }
@@ -492,6 +566,7 @@
 
     /* FEATURES */
     .rolling-pin {
+        -webkit-transform: scale(1) rotate(-40deg);
         transform: scale(1) rotate(-40deg);
         top: -400px;
         right: -150px;
@@ -540,6 +615,7 @@
         width: 250px;
         right: -20px;
         top: -170px;
+        -webkit-transform: rotate(-35deg);
         transform: rotate(-35deg);
     }
 
@@ -656,6 +732,10 @@
         width: 29%;
         margin: 0 -5%;
     }
+    /* MEALS */
+    .section-meals h2 {
+        font-size: 600%;
+    }
     /* CONTACT */
     .section-contact {
         height: 68vh;
@@ -684,6 +764,7 @@
 
     .email-us input {
         font-size: 90%;
+        -webkit-transition: border 0.2s ease-in-out;
         transition: border 0.2s ease-in-out;
     }
 
@@ -759,10 +840,30 @@
     }
 }
 
-/* DONE */
 /* Small Phones: From 380px to 480px */
 @media only screen and (min-width: 381px) and (max-width: 480px) {
     /* HEADER */
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+    }
+    .mobile-nav img {
+        width: 20%;
+        height: auto;
+    }
+    .mobile-nav span {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+    }
     .hero-text-box {
         width: 90%;
     }
@@ -811,6 +912,7 @@
     }
     /* FEATURES */
     .rolling-pin {
+        -webkit-transform: scale(1) rotate(-40deg);
         transform: scale(1) rotate(-40deg);
         top: -400px;
         right: -150px;
@@ -864,6 +966,7 @@
         width: 250px;
         right: -30px;
         top: -180px;
+        -webkit-transform: rotate(-35deg);
         transform: rotate(-35deg);
     }
 
@@ -947,7 +1050,8 @@
     }
     .section-cities .row h2 {
         bottom: 150px;
-        left: 4%;
+        left: 10%;
+        width: 80%;
     }
     .cities-box {
         width: 90%;
@@ -983,6 +1087,11 @@
         width: 35%;
         margin: 0 -5%;
     }
+
+    /* MEALS */
+    .section-meals h2 {
+        font-size: 500%;
+    }
     /* CONTACT */
     .section-contact {
         height: 68vh;
@@ -1013,6 +1122,7 @@
 
     .email-us input {
         font-size: 90%;
+        -webkit-transition: border 0.2s ease-in-out;
         transition: border 0.2s ease-in-out;
         margin-bottom: 5px;
     }
@@ -1088,10 +1198,30 @@
     }
 }
 
-
-/* Super Small Phones: From 0px to 379px */
-@media only screen and (max-width: 380px) {
+/* Super Small Phones: From 321px to 379px */
+@media only screen and (min-width: 321px) and (max-width: 380px) {
     /* HEADER */
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+    }
+    .mobile-nav img {
+        width: 22%;
+        height: auto;
+    }
+    .mobile-nav span {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+    }
     .hero-text-box {
         width: 90%;
     }
@@ -1140,6 +1270,7 @@
     }
     /* FEATURES */
     .rolling-pin {
+        -webkit-transform: scale(1) rotate(-40deg);
         transform: scale(1) rotate(-40deg);
         top: -400px;
         right: -150px;
@@ -1194,6 +1325,7 @@
         width: 220px;
         right: -30px;
         top: -180px;
+        -webkit-transform: rotate(-47deg);
         transform: rotate(-47deg);
     }
 
@@ -1277,9 +1409,11 @@
     }
     .section-cities .row h2 {
         bottom: 150px;
-        left: 4%;
-        border: none;
-        padding: 0;
+        left: 10%;
+
+        padding-left: 15px;
+        border-left: 5px solid #fff;
+        width: 70%;
     }
     .cities-box {
         width: 90%;
@@ -1315,6 +1449,12 @@
         width: 50%;
         margin: 0 -15%;
     }
+
+    /* MEALS */
+    .section-meals h2 {
+        font-size: 450%;
+    }
+
     /* CONTACT */
     .section-contact {
         height: 68vh;
@@ -1330,21 +1470,22 @@
     .form-content {
         display: inline-block;
         margin-top: 0px;
-        top: -20px;
+        top: -10px;
         width: 90%;
     }
 
     .email-us .row h3 {
         width: 70%;
-        font-size: 180%;
+        font-size: 150%;
         text-align: center;
-        top: -25px;
+        top: -20px;
         display: block;
         padding-right: 0;
     }
 
     .email-us input {
         font-size: 90%;
+        -webkit-transition: border 0.2s ease-in-out;
         transition: border 0.2s ease-in-out;
         margin-bottom: 5px;
     }
@@ -1381,12 +1522,12 @@
     }
 
     .footer-tabs ul li {
-        padding: 0px 8px;
+        padding: 0px 5px;
     }
 
     .footer-tabs ul li a:link,
     .footer-tabs ul li a:visited {
-        font-size: 83%;
+        font-size: 75%;
     }
 
     .footer-logo {
@@ -1419,6 +1560,376 @@
     .rights {
         margin: 0;
         top: 20px;
+        font-size: 85%;
+    }
+}
+
+/* Super Small Phones: From 0px to 320px */
+@media only screen and (max-width: 320px) {
+    /* HEADER */
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+    }
+    .mobile-nav img {
+        width: 22%;
+        height: auto;
+    }
+    .mobile-nav span {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+    }
+    .hero-text-box {
+        width: 90%;
+    }
+    .hero-text-box h1 {
+        font-size: 230%;
+    }
+    .btn:link,
+    .btn:visited {
+        padding: 13px 5px;
+        margin: 5px 2px;
+        width: 190px;
         font-size: 90%;
+    }
+
+    /* ABOUT */
+    .floating-div {
+        width: 85%;
+    }
+    .floating-div .row p {
+        width: 100%;
+        padding: 30px 0 30px 0;
+    }
+    .floating-div .row h2 {
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+    .hexagon {
+        width: 70%;
+    }
+    .hexagon:nth-child(2), .hexagon:nth-child(3) {
+        display: none;
+    }
+    .hex-container {
+        bottom: 125px;
+        left: 15px;
+    }
+    .floating-div {
+        max-height: 600px;
+    }
+    .floater .row .yellow-line {
+        display: none;
+    }
+    .plant,
+    .plant2 {
+        width: 50%;
+    }
+    /* FEATURES */
+    .rolling-pin {
+        -webkit-transform: scale(1) rotate(-40deg);
+        transform: scale(1) rotate(-40deg);
+        top: -400px;
+        right: -150px;
+        z-index: 1;
+    }
+    .powder {
+        top: -450px;
+        right: -380px;
+    }
+    .section-features .row .clearfix {
+        display: block;
+    }
+    .features-container {
+        width: 90%;
+        left: 5%;
+        padding: 15px;
+        z-index: 3;
+        padding-bottom: 35px;
+    }
+    .features-container .yellow-line {
+        display: none;
+    }
+    .icon-big {
+        font-size: 250%;
+        margin-bottom: 8px;
+    }
+    .features-content {
+        width: 90%;
+        left: 5%;
+        padding: 10px;
+        min-height: 200px;
+    }
+    .features-content h3 {
+        width: 70%;
+        margin: 0 0 12px 0;
+        display: inline-block;
+    }
+    .features-content p {
+        font-size: 95%;
+        margin-bottom: 15px;
+    }
+    .chef-container {
+        display: none;
+    }
+
+    /* HOW IT WORK */
+    .section-steps {
+        padding: 60px 0 70px 0;
+    }
+
+    .cookies {
+        width: 220px;
+        right: -30px;
+        top: -180px;
+        -webkit-transform: rotate(-47deg);
+        transform: rotate(-47deg);
+    }
+
+    .section-steps .row h2 {
+        top: 60px;
+        margin-bottom: 50px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .steps-left {
+        display: none;
+    }
+
+    .steps-right {
+        width: 90%;
+        margin-left: 5%;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .btn-app img {
+        height: auto;
+        width: 180px;
+    }
+
+    /* PLANS */
+    .chocolate-drip {
+        width: 200%;
+    }
+    .section-plans .row h2 {
+        margin: 0 0 30px 0;
+        bottom: 10px;
+        color: #5f3b32;
+    }
+    .plan-container {
+        width: 90%;
+    }
+    .plan-price {
+        font-size: 160%;
+        min-height: 75px;
+    }
+    .plan-box {
+        width: 90%;
+        left: 5%;
+        margin: 15px 0;
+    }
+    .plan-box div ul {
+        margin: 0 0 0 20px;
+    }
+    .plan-box div ul li {
+        min-height: 30px;
+        font-size: 105%;
+    }
+    .plan-box div ul li i {
+        margin-right: 10px;
+        font-size: 120%;
+        padding: 5px 0;
+        top: 2px;
+    }
+
+    /* CITIES */
+    .cities-skew {
+        top: -150px;
+        width: 200%;
+    }
+    .airplane {
+        width: 185%;
+        right: 0px;
+        top: -350px;
+    }
+    .section-cities {
+        padding-bottom: 35px;
+    }
+    .cities-container {
+        width: 90%;
+        bottom: 70px;
+    }
+    .cities-box img {
+        width: 100%;
+        max-height: 210px;
+    }
+    .section-cities .row h2 {
+        bottom: 150px;
+        left: 10%;
+        padding-left: 15px;
+        border-left: 5px solid #fff;
+        width: 70%;
+    }
+    .cities-box {
+        width: 90%;
+        margin: 15px 5%;
+        min-height: 380px;
+        max-height: 380px;
+    }
+    .city-features {
+        font-size: 19px;
+    }
+
+    .water {
+        width: 200%;
+    }
+
+    /* TESTIMONIALS */
+    .section-testimonials {
+        padding: 70px 0 120px 0;
+    }
+    .customer-box {
+        width: 90%;
+        padding: 30px 15px 20px 15px;
+        margin: 15px 5%;
+    }
+    .customer-box img {
+        width: 40%;
+    }
+    .customer-name {
+        min-height: 50px;
+    }
+    .coffee {
+        bottom: -60px;
+        width: 50%;
+        margin: 0 -15%;
+    }
+
+    /* MEALS */
+    .section-meals h2 {
+        font-size: 400%;
+    }
+
+    /* CONTACT */
+    .section-contact {
+        height: 60vh;
+    }
+    form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-content {
+        display: inline-block;
+        margin-top: 0px;
+        top: -10px;
+        width: 90%;
+    }
+
+    .email-us .row h3 {
+        width: 70%;
+        font-size: 150%;
+        text-align: center;
+        top: -20px;
+        display: block;
+        padding-right: 0;
+    }
+
+    .email-us input {
+        font-size: 90%;
+        -webkit-transition: border 0.2s ease-in-out;
+        transition: border 0.2s ease-in-out;
+        margin-bottom: 5px;
+    }
+
+    input[type=submit] {
+        margin: 0 5px;
+    }
+
+    .section-contact .row h2 {
+        font-size: 210%;
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .section-contact .row h3:last-child {
+        font-size: 145%;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 40vh;
+        background-color: #0d0d0d;
+        border-top: 2px solid #ffa337;
+    }
+    .footer-container {
+        width: 95%;
+    }
+
+    .footer-tabs ul {
+        display: block;
+        width: 220%;
+        top: 20px;
+        z-index: 1;
+    }
+
+    .footer-tabs ul li {
+        padding: 0px 4px;
+    }
+
+    .footer-tabs ul li a:link,
+    .footer-tabs ul li a:visited {
+        font-size: 70%;
+    }
+
+    .footer-logo {
+        width: 10%;
+        bottom: 5px;
+        right: 0px;
+    }
+
+    .footer-logo a {
+        display: table;
+        width: 80%;
+    }
+
+    .footer-logo-img {
+        width: 40px;
+        height:40px;
+    }
+
+    .footer-social ul {
+        display: block;
+        width: 220%;
+        margin: 0px 0;
+        top: 70px;
+    }
+
+    .footer-social ul li {
+        padding: 10px 10px;
+    }
+
+    .footer-social ul li i {
+        font-size: 80%;
+        bottom: 10px;
+    }
+
+    .rights {
+        margin: 0;
+        top: 5px;
+        font-size: 80%;
     }
 }

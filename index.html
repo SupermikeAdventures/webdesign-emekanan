@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
@@ -18,35 +19,53 @@
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+    <!-- FAV ICON -->
+    <link rel="icon" href="resources/img/logo.ico">
 
     <title>Eme Kanan</title>
 </head>
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="header js-section-header">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#features">Features</a>
+                <a href="#steps">How it works</a>
+                <a href="#locations">Locations</a>
+                <a href="#plans">Plans</a>
+            </div>
+        </div>
+
         <div class="row">
+           <div class="mobile-nav">
+               <a href="#"><img src="resources/img/logo-white.png" alt="Eme Kanan Logo" class="logo"></a>
+               <span onclick="openNav()">&#9776;</span>
+           </div>
             <ul class="main-nav">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">How it works</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#steps">How it works</a></li>
                 <a href="#"><img src="resources/img/logo-white.png" alt="Eme Kanan Logo" class="logo"></a>
-                <li><a href="#">Locations</a></li>
-                <li><a href="#">Plans</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#plans">Plans</a></li>
             </ul>
         </div>
 
         <div class="hero-text-box">
             <h1>Eme kanan <span>brad?</span></h1>
             <div class="center-div">
-                <a class="btn btn-full" href="#">Kanan ke</a>
-                <a class="btn btn-ghost" href="#">Kung saba ya soy</a>
+                <a class="btn btn-full js-btn-scroll-meals" href="#">Kanan ke</a>
+                <a class="btn btn-ghost js-btn-scroll-features" href="#">Kung saba ya soy</a>
             </div>
         </div>
     </header>
     <!-- /HEADER -->
 
-    <!-- SECTION BEST SELLER -->
-    <section class="section-best-seller">
+    <!-- SECTION ABOUT -->
+    <section class="section-about js-section-about" id="about">
 
         <img src="resources/img/plant.png" alt="" class="plant">
         <img src="resources/img/plant.png" alt="" class="plant2">
@@ -86,11 +105,10 @@
             </div>
         </div>
     </section>
-    <!-- /SECTION BEST SELLER -->
-
+    <!-- /SECTION ABOUT-->
 
     <!-- SECTION FEATURES -->
-    <section class="section-features">
+    <section class="section-features js-btn-section-features js-section-features" id="features">
         <div class="row">
             <img src="resources/img/rolling-pin.png" alt="" class="rolling-pin">
             <img src="resources/img/powder.png" alt="" class="powder">
@@ -133,7 +151,7 @@
     <!-- /SECTION FEATURES -->
 
     <!-- SECTION STEPS -->
-    <section class="section-steps">
+    <section class="section-steps js-section-steps" id="steps">
         <img src="resources/img/cookies.png" alt="" class="cookies">
 
         <div class="row">
@@ -169,7 +187,7 @@
     </section>
 
     <!-- SECTION PLANS -->
-    <section class="section-plans">
+    <section class="section-plans js-section-plans" id="plans">
         <img src="resources/img/chocolate-drip.png" alt="" class="chocolate-drip">
 
         <div class="row">
@@ -230,9 +248,9 @@
     </section>
     <!-- /SECTION PLANS -->
 
-    <section class="skew-section">
-        <img src="resources/img/airplane.png" alt="" class="airplane">
-        <div class="cities-skew"></div>
+    <section class="skew-section js-section-locations">
+        <img src="resources/img/airplane.png" alt="" class="airplane" >
+        <div class="cities-skew" id="locations"></div>
     </section>
 
     <!-- SECTION CITIES -->
@@ -316,7 +334,7 @@
     <!-- /SECTION CITIES -->
 
     <!-- SECTION TESTIMONIALS -->
-    <section class="section-testimonials">
+    <section class="section-testimonials js-section-testimonials" id="testimonials">
         <div class="row">
             <h2 class="text-center">TESTIMONIALS</h2>
         </div>
@@ -348,7 +366,8 @@
     <!-- /SECTION TESTIMONIALS -->
 
     <!-- SECTION MEALS -->
-    <section class="section-meals">
+    <section class="section-meals js-btn-section-meals js-section-meals" id="meals">
+       <h2>CRAVIN NOW?</h2>
         <section class="collage--spotlight">
             <div class="spotlight__item filter-bnw"></div>
             <div class="spotlight__item filter-bnw"></div>
@@ -360,9 +379,8 @@
     </section>
     <!-- /SECTION MEALS -->
 
-
     <!-- SECTION CONTACT -->
-    <section class="section-contact">
+    <section class="section-contact js-section-contact" id="contact">
         <div class="email-us">
             <div class="row">
                 <form action="#">
@@ -382,7 +400,7 @@
     <!-- /SECTION CONTACT -->
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="js-section-footer" id="footer">
         <div class="footer-container">
             <div class="footer-tabs">
                 <ul class="footer-list-tabs">
@@ -414,6 +432,21 @@
         </div>
     </footer>
     <!-- /FOOTER -->
+
+    <!-- VENDORS SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Enables the browser to execute CSS media queries which we need for responsive web design -->
+    <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <!-- Enables us to use and style HTML5 elements in older browsers that were available when HTML5 does not existed yet -->
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <!-- Allows us to use CSS3 pseudo classes on IE 6 - 8 -->
+    <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/SmoothScroll.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="resources/js/script.js"></script>
+</body>
 </html>
 
 
